@@ -12,7 +12,7 @@
         }
       ],
       "SupportedInMultiActions": true,
-      "UUID": "de.perdoctus.streamdeck.ha.entity"
+      "UUID": "com.beninstfunny.streamdeck.ha.entity"
     }
   ],
   "Category": "Home Assistant",

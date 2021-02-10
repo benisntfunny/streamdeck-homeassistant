@@ -5,11 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "push": "vue-cli-service build && rm -rf ~/Library/Application*Support/com.elgato.StreamDeck/Plugins/com.benisntfunny.streamdeck.ha.sdPlugin/* && cp -R dist/* ~/Library/Application*Support/com.elgato.StreamDeck/Plugins/com.benisntfunny.streamdeck.ha.sdPlugin/.",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "handlebars": "^4.7.6",
+    "lodash": "^4.17.20",
     "vue": "^2.6.11"
   },
   "devDependencies": {
